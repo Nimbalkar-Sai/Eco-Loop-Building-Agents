@@ -5,7 +5,7 @@
 ![EnergyPlus](https://img.shields.io/badge/EnergyPlus-v26.1-00A86B?style=flat)
 ![Llama](https://img.shields.io/badge/Llama_3.2-Ollama-blueviolet?style=flat)
 ![FastMCP](https://img.shields.io/badge/FastMCP-12_Tools-orange?style=flat)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat) 
 
 
 > **Autonomous closed-loop building energy optimization** — EnergyPlus simulation + Llama 3.2 AI agent + real-time Streamlit dashboard.
