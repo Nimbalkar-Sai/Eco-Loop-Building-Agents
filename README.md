@@ -37,6 +37,12 @@ EcoLoop AI introduces an autonomous closed-loop optimization pipeline that conti
 
 ---
 
+## 🎬 Demo Video
+
+[▶ Watch POC Demo Video](POC%20Demo%20Video.MP4)
+
+---
+
 ## 📸 Screenshots
 
 ### 🏠 Dashboard
