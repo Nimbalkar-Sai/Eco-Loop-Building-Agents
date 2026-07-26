@@ -1,0 +1,4 @@
+timestamp,level,event,payload
+2024-01-01 00:00:00,INFO,Pipeline started,{}
+2024-01-01 00:00:05,INFO,Simulation complete,{}
+2024-01-01 00:00:06,INFO,Optimization complete,{}

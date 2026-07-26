@@ -1,0 +1,107 @@
+
+/* EcoLoop - Honeywell Inspired Theme */
+
+:root{
+    --primary:#00bcd4;
+    --secondary:#1976d2;
+    --success:#2ecc71;
+    --warning:#f39c12;
+    --danger:#e74c3c;
+    --bg:#0f172a;
+    --card:#1e293b;
+    --text:#f8fafc;
+    --muted:#94a3b8;
+}
+
+html, body, [class*="css"]{
+    background:var(--bg);
+    color:var(--text);
+    font-family:Inter,Segoe UI,sans-serif;
+}
+
+.main{
+    padding-top:1rem;
+}
+
+h1,h2,h3{
+    color:white;
+    font-weight:700;
+}
+
+div[data-testid="stMetric"]{
+    background:var(--card);
+    border:1px solid rgba(255,255,255,.08);
+    border-left:5px solid var(--primary);
+    border-radius:14px;
+    padding:14px;
+    box-shadow:0 4px 14px rgba(0,0,0,.25);
+}
+
+div[data-testid="stMetricValue"]{
+    font-size:2rem;
+    color:var(--primary);
+    font-weight:700;
+}
+
+.stButton>button{
+    width:100%;
+    border-radius:10px;
+    border:none;
+    background:linear-gradient(90deg,var(--primary),var(--secondary));
+    color:white;
+    font-weight:600;
+    padding:.6rem 1rem;
+}
+
+.stButton>button:hover{
+    transform:translateY(-2px);
+    transition:.2s;
+}
+
+div[data-testid="stSidebar"]{
+    background:#0d1117;
+}
+
+.stDataFrame{
+    border-radius:12px;
+    overflow:hidden;
+}
+
+hr{
+    border:0;
+    border-top:1px solid rgba(255,255,255,.08);
+}
+
+.ec-card{
+    background:var(--card);
+    border-radius:16px;
+    padding:18px;
+    margin-bottom:16px;
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+}
+
+.status-online{
+    color:var(--success);
+    font-weight:700;
+}
+
+.status-warning{
+    color:var(--warning);
+    font-weight:700;
+}
+
+.status-error{
+    color:var(--danger);
+    font-weight:700;
+}
+
+.main-title{
+    font-size:32px;
+    font-weight:bold;
+    color:#00bcd4;
+    margin-bottom:4px;
+}
+
+footer{
+    visibility:hidden;
+}
